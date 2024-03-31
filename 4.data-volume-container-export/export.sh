@@ -1,0 +1,1 @@
+docker container run -v ${PWD}:/tmp --volumes-from data-volume-mysql busybox tar cvzf /tmp/mysql-backup.tar.gz /var/lib/mysql
