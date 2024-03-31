@@ -1,0 +1,1 @@
+docker container run -d --rm --name mysql -e "MYSQL_ALLOW_EMPTY_PASSWORD=yes" MYSQL_DATABASE=volume_test" --volumes-from data-volume-container-restore mysql:8.0.33
